@@ -1,23 +1,34 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
-int main() {
-  int a, b, c, ca, cb, cc;
+int main()
+{
+  int a, b, c;
+  string ca, cb, cc;
   cin >> a >> b >> c;
-  if (a % 3 == 0) {
+  if (a % 2 == 0)
+  {
     ca = "YES";
-  } else if ( a % 3 != 0) ca = "NO";
-  
-  if (b % 3 == 0) {
+  }
+  else
+    ca = "NO";
+  if (b % 2 == 0)
+  {
     cb = "YES";
-  } else if ( b % 3 != 0) cb = "NO";
-
-  if (c % 3 == 0) {
+  }
+  else
+    cb = "NO";
+  if (c % 2 == 0)
+  {
     cc = "YES";
-  } else if ( c % 3 != 0) cc = "NO";
-
-  cout << ca << cb << cc << endl;
-  return 1;
+  }
+  else
+    cc = "NO";
+  cout << ca << endl
+       << cb << endl
+       << cc << endl;
+  return 0;
 }
 
 // Гурван тоо өгөгдөнө. Тоо тэгш бол YES үгүй бол NO гэж хэвлэ.

@@ -9,12 +9,14 @@ using namespace std;
 // Output
 // Нийлбэр
 
-int main() {
-  int a = 100, n, b;
+int main()
+{
+  int a = 100, n, b, i;
   cin >> n;
-  for(i = 1; i <= n; i++) {
+  for (i = 1; i <= n; i++)
+  {
     // a+= a;
-    b = a + a
+    b = a + a;
   }
   cout << b << endl;
 }
