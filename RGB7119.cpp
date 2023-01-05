@@ -1,13 +1,31 @@
 #include <iostream>
 using namespace std;
 
-int main () {
+int main()
+{
   int a;
-  if (a <= 12 && a >= 1) {
-    if ()
+  cin >> a;
+  if (a <= 12 && a >= 1)
+  {
+    if (a >= 2 && a <= 4)
+    {
+      cout << "Spring" << endl;
+    }
+    else if (a >= 5 && a <= 7)
+    {
+      cout << "Summer" << endl;
+    }
+    else if (a >= 8 && a <= 10)
+    {
+      cout << "Autumn" << endl;
+    }
+    else if (a == 11 || a == 12 || a == 1)
+    {
+      cout << "Winter" << endl;
+    }
   }
+  return 0;
 }
-//zalhuu hurew sar uliralaa medsengue
 
 // Өгөгдсөн сар аль улиралд хамаарах вэ. Улирлыг англиар бичихдээ эхний үсгийг томоор бичнэ үү.
 
@@ -17,4 +35,4 @@ int main () {
 // Натурал тоо. 1<=n<=12.
 
 // Output
-// Улирлын нэр англиар. 
+// Улирлын нэр англиар.
