@@ -3,14 +3,12 @@ using namespace std;
 
 int main()
 {
-  int n, i = 1;
+  int a = 1, i, n, m;
   cin >> n;
-
-  while (i <= n)
+  for (i = 1; i <= n; i++)
   {
-    i++;
+    m = a * 2;
   }
-
-  cout << i << endl;
+  cout << m << endl;
   return 0;
 }

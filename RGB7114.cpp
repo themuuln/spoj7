@@ -19,7 +19,7 @@ int main()
   }
   else
     cb = "NO";
-  if (c % 2 == 0)
+  if (c % 3 == 0)
   {
     cc = "YES";
   }

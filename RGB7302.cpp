@@ -3,14 +3,11 @@ using namespace std;
 
 int main()
 {
-  int n, i = 1;
+  int n, s;
   cin >> n;
 
-  while (i <= n)
-  {
-    i++;
-  }
+  s = n;
 
-  cout << i << endl;
+  cout << s << endl;
   return 0;
 }
