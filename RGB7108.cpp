@@ -3,19 +3,30 @@ using namespace std;
 
 int main()
 {
-  int a, b, c, m;
-  cin >> a >> b >> c;
-  if (a % 2 == 1)
+  const int size = 3;
+  int m = 1;
+  int numbers[size];
+
+  for (int i = 0; i < size; i++)
   {
-    m *= a;
+    cin >> numbers[i];
   }
-  if (b % 2 == 1)
+
+  for (int i = 0; i < size; i++)
   {
-    m *= b;
-  }
-  if (c % 2 == 1)
-  {
-    m *= c;
+    if (numbers[i] % 2 != 0)
+    {
+      m *= numbers[i];
+    }
   }
   cout << m << endl;
+  return 0;
 }
+
+// Өгөгдсөн 3 тоон дахь сондгой тоонуудын үржвэрийг ол. Ядаж 1 сондгой тоо байгаа.
+// Input
+
+// Нэг мөрөнд Int төрлийн 3 тоо зайгаар тусгаарлагдан өгөгдөнө.
+// Output
+
+// Үржвэр

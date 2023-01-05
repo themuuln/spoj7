@@ -3,14 +3,19 @@ using namespace std;
 
 int main()
 {
-  int n, i = 1;
+  int n, s = 0;
   cin >> n;
-
-  while (i <= n)
+  for (int i = 1; i <= n; i++)
   {
-    i++;
+    s += i;
   }
-
-  cout << i << endl;
-  return 0;
+  cout << s << endl;
 }
+
+// Эхний n тооны нийлбэрийг тодорхой давталт ашиглан ол.
+// Input
+
+// Int төрлийн эерэг бүхэл тоо өгөгдөнө.
+// Output
+
+// 1-ээс n тооны нийлбэр.
