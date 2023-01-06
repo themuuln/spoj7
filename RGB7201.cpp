@@ -9,9 +9,11 @@ using namespace std;
 // Output
 // IOI
 
-int main() {
+int main()
+{
   int i = 1, n = 1;
-  if ( i == n) {
+  if (i == n)
+  {
     printf("IOI");
   }
   return 0;

@@ -3,8 +3,11 @@ using namespace std;
 
 int main()
 {
-  int f, d;
-  cin >> f >> d;
+  int floor, door, number, cfloor, cdoor;
+  cin >> floor >> door;
+  cin >> number;
+
+  cdoor = number / door;
 }
 
 // Нэг орцтой байрны давхрын тоо, давхар дахь хаалганы тоо өгөгдөв. Айлын хаалганы дугаар мэдэгдэж байгаа үед тэрхүү айл хэд дэх давхрын хэд дэх хаалганд амьдардаг вэ? Давталт ашиглахгүй бодно.
