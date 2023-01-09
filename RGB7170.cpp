@@ -13,16 +13,24 @@ int main()
 
   // input 5, 4, 10
 
+  if (doorNumber % doorCountPerFloor == 0)
+  {
+    calculatedFloor = doorNumber / doorCountPerFloor;
+  }
+  else if (doorNumber % doorCountPerFloor != 0)
+  {
+    calculatedFloor = doorNumber / doorCountPerFloor + 1;
+  }
+  // calculatedFloor output: 3
+
   calculatedDoor = doorNumber % doorCountPerFloor;
   if (calculatedDoor == 0)
   {
-    calculatedDoor = 1;
+    calculatedDoor = doorCountPerFloor;
   }
   // calculatedDoor output: 2
-  calculatedFloor = doorNumber / doorCountPerFloor + 1;
-  // calculatedFloor output: 3
 
-  cout << calculatedFloor << "" << calculatedDoor;
+  cout << calculatedFloor << " " << calculatedDoor;
 }
 
 // Нэг орцтой байрны давхрын тоо, давхар дахь хаалганы тоо өгөгдөв. Айлын хаалганы дугаар мэдэгдэж байгаа үед тэрхүү айл хэд дэх давхрын хэд дэх хаалганд амьдардаг вэ? Давталт ашиглахгүй бодно.
