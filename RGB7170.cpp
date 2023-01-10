@@ -4,11 +4,7 @@ using namespace std;
 int main()
 {
   int floor, doorCountPerFloor, doorNumber, calculatedFloor, calculatedDoor;
-  cout << "Enter total floor: ";
-  cin >> floor;
-  cout << "Enter door count per floor: ";
-  cin >> doorCountPerFloor;
-  cout << "Enter your chosen door number: ";
+  cin >> floor >> doorCountPerFloor;
   cin >> doorNumber;
 
   // input 5, 4, 10

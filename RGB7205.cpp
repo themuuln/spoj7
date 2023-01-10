@@ -3,23 +3,19 @@ using namespace std;
 
 int main()
 {
-  int num;
-  cin >> num;
-
-  int result = factorial(num);
-  cout << result << endl;
-
-  return 0;
+  int n, f;
+  cin >> n;
+  for (int i = 1; i <= n; i++)
+  {
+    f = i * i;
+  };
+  cout << f << endl;
 }
 
-int factorial(int n)
-{
-  if (n == 0)
-  {
-    return 1;
-  }
-  else
-  {
-    return n * factorial(n - 1);
-  }
-}
+// n! ол.
+
+// Input
+// Int төрлийн бүхэл тоо өгөгдөнө.
+
+// Output
+// Өгөгдсөн тооны факториал.
